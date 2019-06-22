@@ -7,4 +7,4 @@ class PostList extends Component {
   }
 }
 
-export default connect()(PostList);
+export default connect(null)(PostList);
