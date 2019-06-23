@@ -1,9 +1,6 @@
 import { combineReducers } from 'redux';
-
-const placeholderReducer = () => {
-  return [];
-};
+import postsReducer from './postsReducer';
 
 export default combineReducers({
-  placeholder: placeholderReducer
+  posts: postsReducer
 });
