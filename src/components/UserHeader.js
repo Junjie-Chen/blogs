@@ -12,6 +12,10 @@ class UserHeader extends Component {
   }
 }
 
+const mapStateToProps = state => ({
+  users: state.users
+});
+
 const mapDispatchToProps = dispatch => ({
   fetchUser(id) {
     dispatch(fetchUser(id));
