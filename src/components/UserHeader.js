@@ -14,7 +14,7 @@ class UserHeader extends Component {
       return null;
     }
 
-    return <div>User Header</div>;
+    return <div className="header">{user.name}</div>;
   }
 }
 
