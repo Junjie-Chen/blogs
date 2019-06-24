@@ -22,4 +22,4 @@ const mapDispatchToProps = dispatch => ({
   }
 });
 
-export default connect(null, mapDispatchToProps)(PostList);
+export default connect(mapStateToProps, mapDispatchToProps)(PostList);
