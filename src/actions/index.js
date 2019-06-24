@@ -8,3 +8,9 @@ export const fetchPosts = () => async dispatch => {
     payload: response.data
   });
 };
+
+export const fetchUser = () => {
+  return {
+    type: 'FETCH_USER'
+  };
+};
