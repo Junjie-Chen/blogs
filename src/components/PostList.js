@@ -12,6 +12,10 @@ class PostList extends Component {
   }
 }
 
+const mapStateToProps = state => ({
+  posts: state.posts
+});
+
 const mapDispatchToProps = dispatch => ({
   fetchPosts() {
     dispatch(fetchPosts());
