@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class UserHeader extends Component {
   render() {
@@ -6,4 +7,4 @@ class UserHeader extends Component {
   }
 }
 
-export default UserHeader;
+export default connect()(UserHeader);
