@@ -13,6 +13,7 @@ export const fetchUser = async id => {
   const response = await jsonPlaceholder.get(`/users/${id}`);
 
   return {
-    type: 'FETCH_USER'
+    type: 'FETCH_USER',
+    payload: response.data
   };
 };
