@@ -22,4 +22,4 @@ const mapDispatchToProps = dispatch => ({
   }
 });
 
-export default connect(null, mapDispatchToProps)(UserHeader);
+export default connect(mapStateToProps, mapDispatchToProps)(UserHeader);
