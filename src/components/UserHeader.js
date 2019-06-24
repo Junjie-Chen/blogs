@@ -7,4 +7,4 @@ class UserHeader extends Component {
   }
 }
 
-export default connect()(UserHeader);
+export default connect(null)(UserHeader);
