@@ -2,7 +2,7 @@ import _ from 'lodash';
 import jsonPlaceholder from '../api/jsonPlaceholder';
 
 export const fetchPostsAndUsers = () => {
-
+  fetchPosts();
 };
 
 export const fetchPosts = () => async dispatch => {
